@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App</title>
+    <script type="module" crossorigin src="/assets/index-PJ6KMbXP.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/react-vendor-uXTmduK9.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-eYE6QK2w.css">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script>
+      // AWS Amplify needs this to work. See https://github.com/aws/aws-sdk-js/issues/3673
+      const isBrowser = () => typeof window !== "undefined";
+      const isGlobal = () => typeof global !== "undefined";
+      if (!isGlobal() && isBrowser()) {
+        var global = window;
+      }
+    </script>
+  </body>
+</html>
